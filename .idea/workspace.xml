@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c8cfe94-d4a2-4c41-a54e-24ae6a66e634" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/leetCode/Connect.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetCode/LengthOfLongestSubstring.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetCode/PathSum.go" beforeDir="false" afterPath="$PROJECT_DIR$/leetCode/PathSum.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,13 +48,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="leetCode算法，Go版本" />
     <MESSAGE value="给定一个二叉搜索树, 找到该树中两个指定节点的最近公共祖先&#10;百度百科中最近公共祖先的定义为：“对于有根树 T 的两个结点 p、q，最近公共祖先表示为一个结点 x，满足 x 是 p、q 的祖先且 x 的深度尽可能大（一个节点也可以是它自己的祖先）。”&#10;例如，给定如下二叉搜索树: root =[6,2,8,0,4,7,9,null,null,3,5]&#10;&#10;示例 1:&#10;输入: root = [6,2,8,0,4,7,9,null,null,3,5], p = 2, q = 8&#10;输出: 6&#10;解释: 节点 2 和节点 8 的最近公共祖先是 6。&#10;&#10;示例 2:&#10;输入: root = [6,2,8,0,4,7,9,null,null,3,5], p = 2, q = 4&#10;输出: 2&#10;解释: 节点 2 和节点 4 的最近公共祖先是 2, 因为根据定义最近公共祖先节点可以为节点本身。&#10;&#10;说明:&#10;所有节点的值都是唯一的。&#10;p、q 为不同节点且均存在于给定的二叉搜索树中。&#10;&#10;来源：力扣（LeetCode）&#10;链接：https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree" />
-    <option name="LAST_COMMIT_MESSAGE" value="给定一个二叉搜索树, 找到该树中两个指定节点的最近公共祖先&#10;百度百科中最近公共祖先的定义为：“对于有根树 T 的两个结点 p、q，最近公共祖先表示为一个结点 x，满足 x 是 p、q 的祖先且 x 的深度尽可能大（一个节点也可以是它自己的祖先）。”&#10;例如，给定如下二叉搜索树: root =[6,2,8,0,4,7,9,null,null,3,5]&#10;&#10;示例 1:&#10;输入: root = [6,2,8,0,4,7,9,null,null,3,5], p = 2, q = 8&#10;输出: 6&#10;解释: 节点 2 和节点 8 的最近公共祖先是 6。&#10;&#10;示例 2:&#10;输入: root = [6,2,8,0,4,7,9,null,null,3,5], p = 2, q = 4&#10;输出: 2&#10;解释: 节点 2 和节点 4 的最近公共祖先是 2, 因为根据定义最近公共祖先节点可以为节点本身。&#10;&#10;说明:&#10;所有节点的值都是唯一的。&#10;p、q 为不同节点且均存在于给定的二叉搜索树中。&#10;&#10;来源：力扣（LeetCode）&#10;链接：https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree" />
+    <MESSAGE value="给定一个二叉树&#10;&#10;struct Node {&#10;  int val;&#10;  Node *left;&#10;  Node *right;&#10;  Node *next;&#10;}&#10;填充它的每个 next 指针，让这个指针指向其下一个右侧节点。如果找不到下一个右侧节点，则将 next 指针设置为 NULL。&#10;&#10;初始状态下，所有 next 指针都被设置为 NULL。&#10;&#10;来源：力扣（LeetCode）&#10;链接：https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node-ii" />
+    <option name="LAST_COMMIT_MESSAGE" value="给定一个二叉树&#10;&#10;struct Node {&#10;  int val;&#10;  Node *left;&#10;  Node *right;&#10;  Node *next;&#10;}&#10;填充它的每个 next 指针，让这个指针指向其下一个右侧节点。如果找不到下一个右侧节点，则将 next 指针设置为 NULL。&#10;&#10;初始状态下，所有 next 指针都被设置为 NULL。&#10;&#10;来源：力扣（LeetCode）&#10;链接：https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node-ii" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="155" y="0" key="CommitChangelistDialog2" timestamp="1601219597592">
+    <state x="101" y="0" key="CommitChangelistDialog2" timestamp="1601262444522">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="155" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1601219597592" />
+    <state x="101" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1601262444522" />
     <state x="410" y="46" key="FileChooserDialogImpl" timestamp="1601114178153">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -64,10 +64,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="52" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1601219551546" />
-    <state x="175" y="36" key="Vcs.Push.Dialog.v2" timestamp="1601219601566">
+    <state x="175" y="36" key="Vcs.Push.Dialog.v2" timestamp="1601262864015">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="175" y="36" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1601219601566" />
+    <state x="175" y="36" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1601262864015" />
     <state x="604" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1601111508657">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
