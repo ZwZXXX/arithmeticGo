@@ -1,4 +1,4 @@
-package leetCode
+package easy
 
 /**
 * @Author: ZwZ
@@ -25,6 +25,12 @@ p、q 为不同节点且均存在于给定的二叉搜索树中。
 来源：力扣（LeetCode）
 链接：https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree
 */
+type TreeNode struct {
+	Left  *TreeNode
+	Right *TreeNode
+	Val   int
+}
+
 func lowestCommonAncestor(root, p, q *TreeNode) (ancestor *TreeNode) {
 	pathP := getPath(root, p)
 	pathQ := getPath(root, q)
