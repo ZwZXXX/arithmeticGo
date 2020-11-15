@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c8cfe94-d4a2-4c41-a54e-24ae6a66e634" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/leetCode/LengthOfLongestSubstring.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetCode/midding/KClosest.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +22,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1i2gB1mDJodtDRcB7YKXNxgwOS9" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -32,7 +34,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/leetCode/dp" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -40,6 +42,15 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JetBrains\GoLand\GoProjects\arithmetic\leetCode\easy" />
+      <recent name="D:\JetBrains\GoLand\GoProjects\arithmetic\leetCode\midding" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JetBrains\GoLand\GoProjects\arithmetic\leetCode\dp" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
@@ -49,13 +60,20 @@
     <MESSAGE value="leetCode算法，Go版本" />
     <MESSAGE value="给定一个二叉搜索树, 找到该树中两个指定节点的最近公共祖先&#10;百度百科中最近公共祖先的定义为：“对于有根树 T 的两个结点 p、q，最近公共祖先表示为一个结点 x，满足 x 是 p、q 的祖先且 x 的深度尽可能大（一个节点也可以是它自己的祖先）。”&#10;例如，给定如下二叉搜索树: root =[6,2,8,0,4,7,9,null,null,3,5]&#10;&#10;示例 1:&#10;输入: root = [6,2,8,0,4,7,9,null,null,3,5], p = 2, q = 8&#10;输出: 6&#10;解释: 节点 2 和节点 8 的最近公共祖先是 6。&#10;&#10;示例 2:&#10;输入: root = [6,2,8,0,4,7,9,null,null,3,5], p = 2, q = 4&#10;输出: 2&#10;解释: 节点 2 和节点 4 的最近公共祖先是 2, 因为根据定义最近公共祖先节点可以为节点本身。&#10;&#10;说明:&#10;所有节点的值都是唯一的。&#10;p、q 为不同节点且均存在于给定的二叉搜索树中。&#10;&#10;来源：力扣（LeetCode）&#10;链接：https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree" />
     <MESSAGE value="给定一个二叉树&#10;&#10;struct Node {&#10;  int val;&#10;  Node *left;&#10;  Node *right;&#10;  Node *next;&#10;}&#10;填充它的每个 next 指针，让这个指针指向其下一个右侧节点。如果找不到下一个右侧节点，则将 next 指针设置为 NULL。&#10;&#10;初始状态下，所有 next 指针都被设置为 NULL。&#10;&#10;来源：力扣（LeetCode）&#10;链接：https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node-ii" />
-    <option name="LAST_COMMIT_MESSAGE" value="给定一个二叉树&#10;&#10;struct Node {&#10;  int val;&#10;  Node *left;&#10;  Node *right;&#10;  Node *next;&#10;}&#10;填充它的每个 next 指针，让这个指针指向其下一个右侧节点。如果找不到下一个右侧节点，则将 next 指针设置为 NULL。&#10;&#10;初始状态下，所有 next 指针都被设置为 NULL。&#10;&#10;来源：力扣（LeetCode）&#10;链接：https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node-ii" />
+    <MESSAGE value="给定一个字符串，请你找出其中不含有重复字符的 最长子串 的长度。&#10;&#10;示例 1:&#10;&#10;输入: &quot;abcabcbb&quot;&#10;输出: 3 &#10;解释: 因为无重复字符的最长子串是 &quot;abc&quot;，所以其长度为 3。&#10;示例 2:&#10;&#10;输入: &quot;bbbbb&quot;&#10;输出: 1&#10;解释: 因为无重复字符的最长子串是 &quot;b&quot;，所以其长度为 1。&#10;示例 3:&#10;&#10;输入: &quot;pwwkew&quot;&#10;输出: 3&#10;解释: 因为无重复字符的最长子串是 &quot;wke&quot;，所以其长度为 3。&#10;     请注意，你的答案必须是 子串 的长度，&quot;pwke&quot; 是一个子序列，不是子串。&#10;&#10;来源：力扣（LeetCode）&#10;链接：https://leetcode-cn.com/problems/longest-substring-without-repeating-characters" />
+    <MESSAGE value="122. 买卖股票的最佳时机 II" />
+    <option name="LAST_COMMIT_MESSAGE" value="122. 买卖股票的最佳时机 II" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="101" y="0" key="CommitChangelistDialog2" timestamp="1601262444522">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state x="642" y="304" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604821424652">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="101" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1601262444522" />
+    <state x="642" y="304" key="#com.intellij.fileTypes.FileTypeChooser/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1604821424652" />
+    <state x="142" y="0" key="CommitChangelistDialog2" timestamp="1604822448034">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="142" y="0" key="CommitChangelistDialog2/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1604822448034" />
+    <state x="101" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1601278651182" />
     <state x="410" y="46" key="FileChooserDialogImpl" timestamp="1601114178153">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -64,10 +82,11 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="52" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1601219551546" />
-    <state x="175" y="36" key="Vcs.Push.Dialog.v2" timestamp="1601262864015">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state x="246" y="51" key="Vcs.Push.Dialog.v2" timestamp="1604822453868">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="175" y="36" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1601262864015" />
+    <state x="246" y="51" key="Vcs.Push.Dialog.v2/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1604822453868" />
+    <state x="175" y="36" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1601278785943" />
     <state x="604" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1601111508657">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
