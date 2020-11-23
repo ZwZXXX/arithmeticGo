@@ -1,9 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="1c8cfe94-d4a2-4c41-a54e-24ae6a66e634" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetCode/easy/isAnagram.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCode/greedy/findMinArrowShots.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,6 +121,17 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="leetCode算法，Go版本" />
     <MESSAGE value="给定一个二叉搜索树, 找到该树中两个指定节点的最近公共祖先&#10;百度百科中最近公共祖先的定义为：“对于有根树 T 的两个结点 p、q，最近公共祖先表示为一个结点 x，满足 x 是 p、q 的祖先且 x 的深度尽可能大（一个节点也可以是它自己的祖先）。”&#10;例如，给定如下二叉搜索树: root =[6,2,8,0,4,7,9,null,null,3,5]&#10;&#10;示例 1:&#10;输入: root = [6,2,8,0,4,7,9,null,null,3,5], p = 2, q = 8&#10;输出: 6&#10;解释: 节点 2 和节点 8 的最近公共祖先是 6。&#10;&#10;示例 2:&#10;输入: root = [6,2,8,0,4,7,9,null,null,3,5], p = 2, q = 4&#10;输出: 2&#10;解释: 节点 2 和节点 4 的最近公共祖先是 2, 因为根据定义最近公共祖先节点可以为节点本身。&#10;&#10;说明:&#10;所有节点的值都是唯一的。&#10;p、q 为不同节点且均存在于给定的二叉搜索树中。&#10;&#10;来源：力扣（LeetCode）&#10;链接：https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree" />
@@ -112,7 +142,8 @@
     <MESSAGE value="402. 移掉K位数字" />
     <MESSAGE value="1030. 距离顺序排列矩阵单元格" />
     <MESSAGE value="排序算法" />
-    <option name="LAST_COMMIT_MESSAGE" value="排序算法" />
+    <MESSAGE value="242. 有效的字母异位词" />
+    <option name="LAST_COMMIT_MESSAGE" value="242. 有效的字母异位词" />
   </component>
   <component name="WindowStateProjectService">
     <state x="105" y="0" width="924" height="1890" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605602133438">
@@ -124,10 +155,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="642" y="304" key="#com.intellij.fileTypes.FileTypeChooser/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1604821424652" />
-    <state x="0" y="606" key="CommitChangelistDialog2" timestamp="1605870743239">
+    <state x="0" y="606" key="CommitChangelistDialog2" timestamp="1606050353395">
       <screen x="0" y="0" width="1080" height="1890" />
     </state>
-    <state x="0" y="606" key="CommitChangelistDialog2/-1366.0.1366.738/0.0.1080.1890@0.0.1080.1890" timestamp="1605870743239" />
+    <state x="0" y="606" key="CommitChangelistDialog2/-1366.0.1366.738/0.0.1080.1890@0.0.1080.1890" timestamp="1606050353395" />
     <state x="142" y="0" key="CommitChangelistDialog2/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1604822448034" />
     <state x="101" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1601278651182" />
     <state x="345" y="766" key="FileChooserDialogImpl" timestamp="1605602115438">
@@ -173,10 +204,10 @@
     <state x="-1314" y="0" key="SettingsEditor/-1366.0.1366.738/0.0.1080.1890@-1366.0.1366.738" timestamp="1605597693121" />
     <state x="0" y="0" key="SettingsEditor/-1366.0.1366.738/0.0.1080.1890@0.0.1080.1890" timestamp="1605598848107" />
     <state x="52" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1601219551546" />
-    <state x="64" y="92" key="Vcs.Push.Dialog.v2" timestamp="1605870754347">
+    <state x="64" y="92" key="Vcs.Push.Dialog.v2" timestamp="1606050360361">
       <screen x="0" y="0" width="1080" height="1890" />
     </state>
-    <state x="64" y="92" key="Vcs.Push.Dialog.v2/-1366.0.1366.738/0.0.1080.1890@0.0.1080.1890" timestamp="1605870754347" />
+    <state x="64" y="92" key="Vcs.Push.Dialog.v2/-1366.0.1366.738/0.0.1080.1890@0.0.1080.1890" timestamp="1606050360361" />
     <state x="246" y="51" key="Vcs.Push.Dialog.v2/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1604822453868" />
     <state x="175" y="36" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1601278785943" />
     <state x="604" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1601111508657">
