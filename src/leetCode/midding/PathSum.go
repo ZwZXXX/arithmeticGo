@@ -1,5 +1,7 @@
 package midding
 
+import "arithmetic/src/leetCode/tool"
+
 /**
 给定一个二叉树和一个目标和，找到所有从根节点到叶子节点路径总和等于给定目标和的路径。
 说明:叶子节点是指没有子节点的节点。
@@ -20,16 +22,10 @@ package midding
 来源：力扣（LeetCode）
 链接：https://leetcode-cn.com/problems/path-sum-ii
 */
-type TreeNode struct {
-	Left  *TreeNode
-	Right *TreeNode
-	Val   int
-}
-
-func pathSum(root *TreeNode, sum int) (ans [][]int) {
+func pathSum(root *tool.TreeNode, sum int) (ans [][]int) {
 	var path []int
-	var dfs func(*TreeNode, int)
-	dfs = func(root *TreeNode, left int) {
+	var dfs func(*tool.TreeNode, int)
+	dfs = func(root *tool.TreeNode, left int) {
 		if root == nil {
 			return
 		}
