@@ -58,6 +58,7 @@ func SortString(s string) string {
 	//桶
 	var flag [26]int
 	//Go没有专门的字符类型，如果要存储单个字符就要用byte去保存ASCII码
+	//不能用make([]byte,len(s))因为这样初始化出的ans的长度和其cap一样 即len(s)  而每个位置上的数默认为0
 	ans := make([]byte, 0, len(s))
 	//初始化桶
 	for _, ch := range s {
