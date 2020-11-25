@@ -1,7 +1,8 @@
 package main
 
 import (
-	"arithmetic/src/leetCode/greedy"
+	"arithmetic/src/leetCode/easy"
+	"fmt"
 )
 
 /**
@@ -16,10 +17,13 @@ func main() {
 	for i := 0; i < len(arr); i++ {
 		fmt.Println(arr[i])
 	}*/
-	var arr = [][]int{
+	/*var arr = [][]int{
 		{1, 2, 3},
 		{4, 5, 6},
 		{7, 8, 9},
 	}
-	greedy.FindMinArrowShots(arr)
+	greedy.FindMinArrowShots(arr)*/
+	str := "aaabbbccc"
+	easy.SortString(str)
+	fmt.Println(string(97))
 }
