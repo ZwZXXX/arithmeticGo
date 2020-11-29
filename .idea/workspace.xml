@@ -20,7 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c8cfe94-d4a2-4c41-a54e-24ae6a66e634" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/leetCode/easy/sortString.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetCode/easy/sortString.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCode/easy/largestPerimeter.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,6 +130,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="leetCode算法，Go版本" />
