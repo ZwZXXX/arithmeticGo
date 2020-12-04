@@ -2,6 +2,7 @@ package main
 
 import (
 	"arithmetic/src/leetCode/easy"
+	"arithmetic/src/leetCode/greedy"
 	"fmt"
 )
 
@@ -26,4 +27,12 @@ func main() {
 	str := "aaabbbccc"
 	easy.SortString(str)
 	fmt.Println(string(97))
+	var mapD map[int]int
+	mapD = make(map[int]int, 10)
+	for i := 0; i < 12; i++ {
+		mapD[i] = i
+	}
+	var arr = []int{1, 2, 3, 3, 4, 5}
+	fmt.Println(greedy.IsPossible(arr))
+
 }
